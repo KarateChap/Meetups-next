@@ -12,7 +12,7 @@ export default function HomePage(props) {
           contet="Browse a huge list of highlt active React meetups!"
         ></meta>
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </>
   );
 }
